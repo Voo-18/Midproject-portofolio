@@ -1,8 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
+import '../src/assets/css/style.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import './config/Firebase/index';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
